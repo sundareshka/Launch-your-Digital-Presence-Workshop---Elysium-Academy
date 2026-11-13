@@ -421,9 +421,22 @@ export function AssessmentAndResources({
 
             {/* Official Certificate Layout */}
             <div className="border-t-4 border-b-4 border-amber-500 bg-slate-50/40 px-6 sm:px-12 py-10 text-center space-y-5 rounded-xl">
-              <p className="text-xs font-semibold tracking-widest text-slate-500 uppercase">
-                Elysium Academy · Milestone of Cognizance
-              </p>
+              <div className="flex justify-center">
+                <a
+                  href="https://elysiumacademy.org"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Elysium Academy official website"
+                  className="inline-block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 rounded"
+                >
+                  <img
+                    src="/assets/aistudio/ElysiumAcadmemy_a81d78c3.png"
+                    alt="Elysium Academy — Milestone of Cognizance"
+                    referrerPolicy="no-referrer"
+                    className="h-12 w-auto object-contain mx-auto"
+                  />
+                </a>
+              </div>
               <h4 className="font-display text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">
                 CERTIFICATE OF PARTICIPATION
               </h4>

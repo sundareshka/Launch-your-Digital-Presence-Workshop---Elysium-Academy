@@ -42,14 +42,21 @@ export function TopNav({
   return (
     <header className="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-slate-200 no-print">
       <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-8">
-        {/* Zone 1: Brand wordmark only */}
-        <button
-          type="button"
-          onClick={() => handleSelect('overview')}
-          className="font-display text-lg font-bold tracking-tight text-slate-900 whitespace-nowrap shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 rounded-md px-1 py-0.5 text-left"
+        {/* Zone 1: Elysium Academy brand logo linked to https://elysiumacademy.org */}
+        <a
+          href="https://elysiumacademy.org"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Elysium Academy official website"
+          className="inline-flex items-center shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 rounded-md"
         >
-          Launch Your Digital Presence
-        </button>
+          <img
+            src="/assets/aistudio/ElysiumAcadmemy_a81d78c3.png"
+            alt="Elysium Academy — Milestone of Cognizance"
+            referrerPolicy="no-referrer"
+            className="h-9 sm:h-10 w-auto object-contain"
+          />
+        </a>
 
         {/* Zone 2: 5 concise single-line nav links */}
         <nav aria-label="Primary navigation" className="hidden lg:flex items-center gap-7">

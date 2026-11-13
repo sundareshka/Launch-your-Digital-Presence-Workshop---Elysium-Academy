@@ -193,21 +193,44 @@ export default function App() {
       </main>
 
       <footer className="border-t border-slate-200 bg-white mt-12 no-print">
-        <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col md:flex-row md:items-center justify-between gap-4 text-xs text-slate-600">
-          <div className="space-y-1">
-            <p className="font-display font-bold text-sm text-slate-900">
-              Elysium Academy · Milestone of Cognizance
-            </p>
-            <p>
-              230, Church Road, Anna Nagar, Madurai 625 020, Tamil Nadu, India · Est. 1999
-            </p>
+        <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col md:flex-row md:items-center justify-between gap-6 text-xs text-slate-600">
+          <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+            <a
+              href="https://elysiumacademy.org"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Elysium Academy official website"
+              className="inline-block shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 rounded"
+            >
+              <img
+                src="/assets/aistudio/ElysiumAcadmemy_a81d78c3.png"
+                alt="Elysium Academy — Milestone of Cognizance"
+                referrerPolicy="no-referrer"
+                className="h-9 w-auto object-contain"
+              />
+            </a>
+            <div className="space-y-0.5">
+              <p className="font-display font-bold text-sm text-slate-900">
+                Launch Your Digital Presence
+              </p>
+              <p>
+                230, Church Road, Anna Nagar, Madurai 625 020, Tamil Nadu, India · Est. 1999
+              </p>
+            </div>
           </div>
           <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-slate-600">
             <span>Workshop Helpline: 96777 81155 | 96777 24437</span>
             <span aria-hidden="true">·</span>
             <span>info@elysiumacademy.org</span>
             <span aria-hidden="true">·</span>
-            <span>www.elysiumacademy.org</span>
+            <a
+              href="https://elysiumacademy.org"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-slate-900 hover:text-amber-700 hover:underline"
+            >
+              elysiumacademy.org
+            </a>
           </div>
         </div>
       </footer>
